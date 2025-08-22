@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Peoposta de site de restaurante
+Este repositório contém uma página de um restaurante, com menu de lanches, refeições e sucos.
 
-## Getting Started
+## 📦 Como rodar o projeto localmente
 
-First, run the development server:
+#### Clone o repositório:
+git clone https://github.com/Irenita-Lopes/restaurante.git
 
-```bash
+#### Instale as dependências:
+npm install
+
+#### Execute o projeto:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Veja no terminal o link de acesso, geralmente: 
+`http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: Framework React para construção de aplicações web com renderização server-side.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Icons**:  Biblioteca de ícones leve e fácil de usar.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva dos componentes.
+- **Next/Image**: Componente otimizado para imagens no Next.js.
 
-## Learn More
+## 🚀 Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- **HomePage**: Uma introdução visualmente.
+- **cardápio**: Pordutos e valores.
+- **Eventos**: Informações sobre reservas para festas e eventos.
+- **Contact**: Facilita o contato através de e-mail, WhatsApp e LinkedIn.
+- **Pedidos**: Direcionando para aplicação de compras online.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
