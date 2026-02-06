@@ -102,7 +102,7 @@ const Cardapio = () => {
   return (
     <div id="menu" className="min-h-screen bg-white px-6 py-12 md:px-20 scroll-mt-14">
 
-      <h1 className="text-[#F24B6A] mb-6 font-bold text-4xl md:text-5xl drop-shadow-lg text-center">
+      <h1 className="text-[#297DA6] mb-6 font-bold text-4xl md:text-5xl drop-shadow-lg text-center">
         Nossas belezuras
       </h1>
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">

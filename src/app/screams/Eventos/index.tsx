@@ -6,8 +6,8 @@ import Link from "next/link";
 const Eventos = () => {
     return (
         <section
-            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#d1f387]"
-            id="home"
+            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#A3A651]"
+            id="eventos"
         >
             <figure className="md:w-[30%] h-auto flex justify-center items-center">
                 <Image
@@ -36,7 +36,7 @@ const Eventos = () => {
                                href="https://www.ifood.com.br/Kibebelu"
                                target="_blank"
                                rel="noopener noreferrer"
-                               className="flex items-center gap-2 px-6 py-3 rounded-full bg-white text-zinc-800 hover:text-white font-semibold text-lg hover:bg-[#F24B6A] transition"
+                               className="flex items-center gap-2 px-6 py-3 rounded-full bg-white text-zinc-800 hover:text-white font-semibold text-lg hover:bg-[#297DA6] transition"
                              >
                                Entre em contato
                              </a>

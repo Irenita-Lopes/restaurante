@@ -3,6 +3,7 @@ import Inicio from "./screams/Inicio";
 import Contatos from "./screams/Contatos";
 import Cardapio from "./screams/Cardapio";
 import Eventos from "./screams/Eventos";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Cardapio />
       <Eventos /> 
       <Contatos />
+      <Footer />
     </div>
   );
 }

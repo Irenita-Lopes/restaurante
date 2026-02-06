@@ -13,7 +13,7 @@ export interface IMenuCard {
 
 const MenuCard = ({ title, items }: IMenuCard) => {
   return (
-    <div className="flex flex-col p-6 rounded-2xl shadow-md bg-[#d1f387] hover:shadow-lg transition">
+    <div className="flex flex-col p-6 rounded-2xl shadow-md bg-[#A3A651] hover:shadow-lg transition">
       <h2 className="text-2xl font-bold text-zinc-800 mb-4 text-center">{title}</h2>
       <ul className="space-y-4">
         {items.map((item, index) => (

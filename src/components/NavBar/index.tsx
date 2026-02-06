@@ -27,36 +27,36 @@ const NavBar: React.FC = () => {
             
             <nav className="w-[100%] h-[100%] text-[20px] md:h-auto flex flex-col md:flex-row align-center items-center justify-center md:justify-end gap-10">
                 <Link
-                    className={`text-[#F24B6A] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/"}
+                    className={`text-[#297DA6] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"#home"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Início
                 </Link>
                 <Link
-                    className={`text-[#F24B6A] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/cardapio"}
+                    className={`text-[#297DA6] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"#menu"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Cardápio
                 </Link>
                 <Link
-                    className={`text-[#F24B6A] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/eventos"}
+                    className={`text-[#297DA6] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"#eventos"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Eventos
                 </Link>
                 <Link
-                    className={`text-[#F24B6A] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/contatos"}
+                    className={`text-[#297DA6] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"#contatos"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Contatos
                 </Link>
                 <Link
-                    className={`text-[#F24B6A] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/pedidos"}
+                    className={`text-[#297DA6] hover:text-[#8EA65B] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    href={"#contatos"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Pedidos

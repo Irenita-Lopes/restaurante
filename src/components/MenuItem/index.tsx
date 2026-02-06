@@ -17,7 +17,7 @@ const MenuItem = ({ nome, descricao, medida, valor, imagem }: IMenuItemProps) =>
         </div>
       )}
       <div>
-        <h3 className="font-semibold text-lg text-[#F24B6A]">{nome}</h3>
+        <h3 className="font-semibold text-lg text-[#297DA6]">{nome}</h3>
         <p className="text-sm text-zinc-600">
           {descricao}
           {medida && <span className="text-xs text-zinc-500 ml-2">({medida})</span>}
