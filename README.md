@@ -1,4 +1,4 @@
-# 💻 Peoposta de site de restaurante
+# 💻 Proposta de site de restaurante
 Este repositório contém uma página de um restaurante, com menu de lanches, refeições e sucos.
 
 ## 📦 Como rodar o projeto localmente
