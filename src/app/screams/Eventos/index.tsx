@@ -1,7 +1,5 @@
 import Image from "next/image";
 import perfil from "@/assets/façaSeuEvento.png";
-import { FaLinkedin} from 'react-icons/fa';
-import Link from "next/link";
 
 const Eventos = () => {
     return (

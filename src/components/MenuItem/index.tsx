@@ -1,4 +1,4 @@
-import { StaticImageData } from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 export interface IMenuItemProps {
   nome: string;
@@ -13,7 +13,7 @@ const MenuItem = ({ nome, descricao, medida, valor, imagem }: IMenuItemProps) =>
     <li className="p-4 rounded-xl bg-white shadow-sm hover:shadow-md transition flex items-center space-x-4">
       {imagem && (
         <div className="w-16 h-16 rounded-md overflow-hidden shadow-inner">
-          <img src={imagem.src} alt={nome} className="w-full h-full object-cover" /> // Use imagem.src
+          <Image src={imagem} alt={nome} className="w-full h-full object-cover" /> 
         </div>
       )}
       <div>

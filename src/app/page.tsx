@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Inicio from "./screams/Inicio";
 import Contatos from "./screams/Contatos";
 import Cardapio from "./screams/Cardapio";
